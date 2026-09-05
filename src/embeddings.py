@@ -3,7 +3,6 @@ from typing import List
 import numpy as np
 
 class MedicalEmbeddings:
-    """Handles embedding generation for medical documents."""
     
     def __init__(self, model_name: str = "all-MiniLM-L6-v2"):
         self.model_name = model_name

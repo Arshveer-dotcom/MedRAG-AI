@@ -9,7 +9,6 @@ from .pdf_processor import PDFProcessor
 from .text_splitter import MedicalTextSplitter
 
 class MedicalRAGPipeline:
-    """Complete RAG pipeline for medical information retrieval."""
     
     def __init__(self):
         print("Initializing Medical RAG Pipeline...")

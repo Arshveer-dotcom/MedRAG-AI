@@ -2,7 +2,6 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from typing import List, Dict, Any
 
 class MedicalTextSplitter:
-    """Splits medical documents into meaningful overlapping chunks."""
     
     def __init__(self, chunk_size: int = 1000, chunk_overlap: int = 200):
         self.chunk_size = chunk_size

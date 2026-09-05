@@ -4,7 +4,6 @@ from pathlib import Path
 from typing import List, Dict, Any
 
 class PDFProcessor:
-    """Handles PDF text extraction and metadata preservation."""
     
     @staticmethod
     def extract_text_from_pdf(pdf_path: Path) -> List[Dict[str, Any]]:

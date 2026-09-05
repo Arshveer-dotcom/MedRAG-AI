@@ -3,7 +3,6 @@ from .vector_store import MedicalVectorStore
 from .embeddings import MedicalEmbeddings
 
 class MedicalRetriever:
-    """Handles semantic retrieval of medical information."""
     
     def __init__(self, vector_store: MedicalVectorStore, embeddings: MedicalEmbeddings):
         self.vector_store = vector_store

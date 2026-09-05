@@ -2,7 +2,6 @@ from typing import Optional
 
 
 class MedicalLLM:
-    """Handles LLM interactions via Ollama or OpenAI."""
 
     def __init__(self, model_name: str = "llama3.2:3b", base_url: str = "http://localhost:11434",
                  openai_api_key: str = "", openai_model: str = "gpt-4o-mini"):

@@ -4,7 +4,6 @@ from typing import List, Dict, Any, Optional
 from pathlib import Path
 
 class MedicalVectorStore:
-    """Handles ChromaDB vector store operations."""
     
     def __init__(self, persist_directory: Path, collection_name: str = "medical_documents"):
         self.persist_directory = persist_directory
